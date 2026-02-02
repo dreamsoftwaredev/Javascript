@@ -1,5 +1,11 @@
-var name = "Jagdish";
-var name = "Rao"; // Re-declaring the variable using var
-name = "JS Developer"; // Re-assigning the variable
+console.log(x); // undefined but hoisting occurs
 
-console.log(name);
+if (true) {
+    var x = "Jagdish"
+    var x = "Kumar" //redeclaration allowed with var
+}
+
+console.log(x);
+
+// Var is function scoped, reinitialize and redclaration
+// allowed. it is hoisted with undefined.

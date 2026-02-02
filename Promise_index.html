@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Promise Example</title>
+</head>
+
+<body>
+    <h1> Promise Example open console.</h1>
+</body>
+<script>
+    let a = 10;
+    let b = 20;
+    const result = a + b;
+    // async function fetchData() {
+    //     let getDataFromServer =
+    //         await fetch('https://microsoftedge.github.io/Demos/json-dummy-data/64KB.json')
+    //     console.log(await getDataFromServer.json());
+    // }
+    // fetchData();
+    fetch('https://microsoftedge.github.io/Demos/json-dummy-data/64KB.json').then((data) => {
+        console.log(data)
+    })
+        .catch((error) => {
+            console.log(error)
+        })
+    console.log(result);
+
+
+</script>
+
+</html>

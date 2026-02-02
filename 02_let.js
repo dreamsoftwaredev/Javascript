@@ -1,5 +1,21 @@
-let name = "Alok";
-//let name = "Swain"; // This will throw an error as re-declaring a let variable in the same scope is not allowed
-name = "frontend developer";
+// let x = "Jagdish";
+// if (true) {
+//     x = "Kumar";
+//     console.log(x);
+// }
 
-console.log(name);
+// console.log(x);
+
+let x = "Jagdish";
+
+if (true) {
+    x = "Kumar"
+    console.log(x);
+}
+
+console.log(x);
+
+
+
+
+
